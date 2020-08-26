@@ -140,3 +140,27 @@ body {
   text-align: center;
 }
 
+#footer {
+  width: 90%;
+  height: 70px;
+  line-height: 70px;
+  color: #444;
+  margin: 0 auto;
+  align-items: baseline;
+}
+
+#footer p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#footer ul{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#footer ul li {
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
