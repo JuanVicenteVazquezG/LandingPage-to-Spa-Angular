@@ -4,7 +4,7 @@
     <div id="logo">
       <div id="brand">
         <p>
-          <b>JUAN VICENTE VAZQUEZ G.</b>
+          <a [routerLink]="['/home']"><b>JUAN VICENTE VAZQUEZ G.</b></a>
         </p>
       </div>
     </div>
@@ -13,16 +13,16 @@
     <nav id="menu">
       <ul>
         <li>
-          <a [routerLink]="['/home']">Home</a>
+          <a [routerLink]="['/home']" [routerLinkActive]="['active']">Home</a>
         </li>
         <li>
-          <a href="blog.html">Portfolio</a>
+          <a href="blog.html" [routerLinkActive]="['active']">Portfolio</a>
         </li>
         <li>
-          <a href="formulario.html">About</a>
+          <a href="formulario.html" [routerLinkActive]="['active']">About</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#" [routerLinkActive]="['active']">Contact</a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/juan-vicente-vazquez-garcia/"

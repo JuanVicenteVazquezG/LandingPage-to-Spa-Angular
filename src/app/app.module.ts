@@ -8,6 +8,7 @@ import { SliderComponent } from './components/slider/slider.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
+import { PruebaComponent } from './components/prueba/prueba.component';
 
 
 
@@ -19,6 +20,7 @@ import { ErrorComponent } from './components/error/error.component';
     FooterComponent,
     HomeComponent,
     ErrorComponent,
+    PruebaComponent,
   ],
   imports: [
     BrowserModule,
