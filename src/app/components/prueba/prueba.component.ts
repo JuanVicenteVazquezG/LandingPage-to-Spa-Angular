@@ -8,15 +8,27 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./prueba.component.css']
 })
 export class PruebaComponent implements OnInit {
- public title: String;
+  public title: String;
+  public surname: String;
   constructor(private _route: ActivatedRoute, private _router: Router) {
 
   }
 
   ngOnInit() {
     this._route.params.subscribe((params: Params) => {
-      console.log(params);
-      this.title = params.nombre;
+      if (params.name) {
+        this.title = params.name;
+      }
+      else {
+        this.title = 'No params';
+      }
+
+      if (params.surname) {
+        this.surname = params.surname;
+      }
+      else {
+        this.surname = 'No Surname';
+      }
     });
   }
 }

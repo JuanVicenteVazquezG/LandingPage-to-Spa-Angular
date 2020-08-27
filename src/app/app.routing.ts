@@ -15,7 +15,9 @@ import { PruebaComponent } from './components/prueba/prueba.component';
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, },
   { path: 'home', component: HomeComponent, },
-  { path: 'prueba/:nombre', component: PruebaComponent, },
+  { path: 'prueba', component: PruebaComponent, },
+  { path: 'prueba/:name', component: PruebaComponent, },
+  { path: 'prueba/:name/:surname', component: PruebaComponent, },
   { path: '', component: HomeComponent, },
   { path: '**', component: ErrorComponent, },
 ];
