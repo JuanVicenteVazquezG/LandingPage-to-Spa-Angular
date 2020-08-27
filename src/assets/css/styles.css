@@ -154,7 +154,7 @@ body {
   padding: 0px;
 }
 
-#footer ul{
+#footer ul {
   display: flex;
   flex-flow: row wrap;
 }
@@ -163,4 +163,10 @@ body {
   list-style: none;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.subheader {
+  font-size: 38px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
 }

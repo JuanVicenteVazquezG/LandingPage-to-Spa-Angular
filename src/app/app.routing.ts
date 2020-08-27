@@ -7,6 +7,7 @@ import { Routes, RouterModule } from '@angular/router';
 // Next import Components
 
 import { HomeComponent } from './components/home/home.component';
+import { ErrorComponent } from './components/error/error.component';
 
 
 // Array of routes
@@ -15,7 +16,7 @@ const appRoutes: Routes = [
   { path: '', component: HomeComponent, },
   { path: 'home', component: HomeComponent, },
   { path: '', component: HomeComponent, },
-  { path: '**', component: HomeComponent, },
+  { path: '**', component: ErrorComponent, },
 ];
 
 
