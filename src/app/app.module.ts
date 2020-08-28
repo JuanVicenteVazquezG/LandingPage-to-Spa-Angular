@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
 import { PruebaComponent } from './components/prueba/prueba.component';
+import { TechnologiesComponent } from './components/technologies/technologies.component';
 
 
 
@@ -21,6 +22,7 @@ import { PruebaComponent } from './components/prueba/prueba.component';
     HomeComponent,
     ErrorComponent,
     PruebaComponent,
+    TechnologiesComponent,
   ],
   imports: [
     BrowserModule,
