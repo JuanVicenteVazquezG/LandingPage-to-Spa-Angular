@@ -9,17 +9,18 @@ export class TechnologiesComponent implements OnInit {
   public technology: Array<{ icon: string, name: string }>;
   constructor() {
     this.technology = [
-      { icon: 'src\assets\images\html and css.svg', name: 'HTML/CSS' },
-      { icon: 'src\assets\images\javascript.svg', name: 'Javascript' },
-      { icon: 'src\assets\images\expressjs.svg', name: 'ExpressJS' },
-      { icon: 'src\assets\images\framework.svg', name: 'ReactJS / AngularJS /VueJS' },
-      { icon: 'src\assets\images\mongodb.SVG', name: 'MongoDB' },
-      { icon: 'src\assets\images\typescript.svg', name: 'TypeScript' },
-      { icon: 'src\assets\images\github.svg', name: 'GIT - GITHUB' },
+      { icon: '../assets/images/htmlncss.svg', name: 'HTML/CSS' },
+      { icon: '../assets/images/javascript.svg', name: 'Javascript' },
+      { icon: '../assets/images/expressjs.svg', name: 'ExpressJS' },
+      { icon: '../assets/images/framework.svg', name: 'ReactJS / AngularJS /VueJS' },
+      { icon: '../assets/images/mongodb.svg', name: 'MongoDB' },
+      { icon: '../assets/images/typescript.svg', name: 'TypeScript' },
+      { icon: '../assets/images/github.svg', name: 'GIT - GITHUB' },
     ];
   }
 
   ngOnInit(): void {
+    console.log(this.technology);
   }
 
 }

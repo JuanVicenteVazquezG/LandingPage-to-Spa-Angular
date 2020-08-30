@@ -1,2 +1,11 @@
-<h2>Technologies</h2>
-
+<article *ngIf="technology">
+  <div>
+    <h2>Technologies</h2>
+    <ul class="tech">
+      <li *ngFor="let tech of technology">
+        <img src="{{ tech.icon }}" width="64.px" />
+        <h3>{{ tech.name }}</h3>
+      </li>
+    </ul>
+  </div>
+</article>

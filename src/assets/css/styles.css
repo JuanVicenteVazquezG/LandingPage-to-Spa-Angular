@@ -12,6 +12,10 @@ body {
   border-top: 5px solid #0070b8;
 }
 
+h2{
+  text-align: center;
+}
+
 #header {
   width: 90%;
   background: white;
@@ -178,4 +182,21 @@ body {
   font-size: 38px;
   border-bottom: 1px solid #eee;
   padding-bottom: 10px;
+}
+
+
+.tech {
+  display: flex;
+  margin: 30px 30px;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin-top: 50px;
+}
+
+.tech li {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: b;
+  text-align: center;
+  align-items: center;
 }

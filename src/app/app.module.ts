@@ -10,6 +10,10 @@ import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
 import { PruebaComponent } from './components/prueba/prueba.component';
 import { TechnologiesComponent } from './components/technologies/technologies.component';
+import { LanguagesComponent } from './components/languages/languages.component';
+import { AboutComponent } from './components/about/about.component';
+import { CvComponent } from './components/cv/cv.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 
@@ -23,6 +27,10 @@ import { TechnologiesComponent } from './components/technologies/technologies.co
     ErrorComponent,
     PruebaComponent,
     TechnologiesComponent,
+    LanguagesComponent,
+    AboutComponent,
+    CvComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
