@@ -12,9 +12,7 @@ import { PruebaComponent } from './components/prueba/prueba.component';
 import { TechnologiesComponent } from './components/technologies/technologies.component';
 import { LanguagesComponent } from './components/languages/languages.component';
 import { AboutComponent } from './components/about/about.component';
-import { CvComponent } from './components/cv/cv.component';
 import { ContactComponent } from './components/contact/contact.component';
-
 
 
 @NgModule({
@@ -29,7 +27,6 @@ import { ContactComponent } from './components/contact/contact.component';
     TechnologiesComponent,
     LanguagesComponent,
     AboutComponent,
-    CvComponent,
     ContactComponent,
   ],
   imports: [
